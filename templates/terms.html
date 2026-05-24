@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Terms & Conditions{% endblock %}
+
+{% block content %}
+<section class="terms-section">
+    <div class="terms-inner">
+        <h1>Terms &amp; Conditions</h1>
+        <p>Welcome to Spendly. By using this service you agree to the following terms:</p>
+        <ul>
+            <li>All data you enter is for personal use only.</li>
+            <li>We do not guarantee absolute privacy or security of your financial data.</li>
+            <li>You may delete your account at any time, which will remove all stored expenses.</li>
+            <li>Use of the service is at your own risk; we are not liable for any financial loss.</li>
+        </ul>
+        <p>These terms may be updated from time to time without notice.</p>
+        <a href="{{ url_for('landing') }}" class="btn-primary">Back to Home</a>
+    </div>
+</section>
+{% endblock %}
