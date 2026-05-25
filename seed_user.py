@@ -1,6 +1,6 @@
 import os, random, string, datetime
 from werkzeug.security import generate_password_hash
-from expense_tracker.database.db import get_db, init_db
+from database.db import get_db, init_db
 
 # Ensure DB and tables exist
 init_db()
